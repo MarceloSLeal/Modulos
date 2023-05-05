@@ -1,9 +1,10 @@
 package br.com.marcelo.calculo;
 
+import br.com.marcelo.app.Calculadora;
 import br.com.marcelo.calculo.interno.OperacoesAritmeticas;
 import br.com.marcelo.logging.Logger;
 
-public class Calculadora {
+public class CalculadoraImpl implements Calculadora {
 
     private String id = "abc";
 

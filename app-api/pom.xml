@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.br.marcelo</groupId>
-    <artifactId>app-calculo</artifactId>
+    <groupId>br.com.marcelo</groupId>
+    <artifactId>app-api</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,19 +13,5 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>br.com.marcelo</groupId>
-            <artifactId>app-logging</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>br.com.marcelo</groupId>
-            <artifactId>app-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 
 </project>
